@@ -28,9 +28,7 @@ namespace Choice {
             // return number of people that were given a choice in the end
             int count = 0;
             for (int i = 0; i < list.Length; i++) {
-                Console.WriteLine(String.Format("student {0}", list[i].name));
                 for (int j = 0; j < opts.Count; j++) {
-                    Console.WriteLine(String.Format("{0}", list[i].choices[j].abr));
                     if (list[i].choices[j].take_seat(list[i])) {
                         ++count;
                         foreach (result result in res) {
