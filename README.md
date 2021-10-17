@@ -9,7 +9,7 @@ List of options and students is taken as a static variables, then we proceeed to
 - Find best possible option for every student using Gale and Shapley algorithm
 - Display results
 
-Output should look like:
+Output when executing should look like:
 ```
 Option ASR:
 - Gyer re 15.5
